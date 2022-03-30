@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liqi.gradle",
+    "module": "pluginTest",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "ylyqix56nrckpjoexpe6mqteha"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "pluginTest-0.0.2.jar",
+          "url": "pluginTest-0.0.2.jar",
+          "size": 1718,
+          "sha512": "c4bc4c2a04176ed943e95e497da8c199bdb0bad1374094bef1ecc8d1d8df12084b5204f20b1597bdd0acab71710795a343dc6e1f8bc0820df43cbe2ac0d2696b",
+          "sha256": "4626b9150b995a8291946dd83c8567996de5375325c46cd7d62baece2c5f725a",
+          "sha1": "69a2390c3e7c2516e30ae999b628bb89718211d4",
+          "md5": "99970d1a0314d888ae101beaf3e73ce8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pluginTest-0.0.2.jar",
+          "url": "pluginTest-0.0.2.jar",
+          "size": 1718,
+          "sha512": "c4bc4c2a04176ed943e95e497da8c199bdb0bad1374094bef1ecc8d1d8df12084b5204f20b1597bdd0acab71710795a343dc6e1f8bc0820df43cbe2ac0d2696b",
+          "sha256": "4626b9150b995a8291946dd83c8567996de5375325c46cd7d62baece2c5f725a",
+          "sha1": "69a2390c3e7c2516e30ae999b628bb89718211d4",
+          "md5": "99970d1a0314d888ae101beaf3e73ce8"
+        }
+      ]
+    }
+  ]
+}

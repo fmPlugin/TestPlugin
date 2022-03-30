@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ApplicationA",
+    "module": "pluginTest",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "n5gfoq25nvf2vc6bbvlc7yrusy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "pluginTest-unspecified.jar",
+          "url": "pluginTest-unspecified.jar",
+          "size": 1650,
+          "sha512": "d0cc5e981376eab59610b1c0a3661c08fc89fba0a779669a0cc93088d21ed8b51d7f44793d3468f8600943591f27f7399c7d68bb0d97948b56e88056e564671b",
+          "sha256": "d30cb60c1bf0436ea328c555da094e8f315a9ce7239c4a9e954ca8b79b4ea304",
+          "sha1": "5a3b72d84dfe26b8ca11e637a9416b69fb7c8882",
+          "md5": "b71c3d40b08c2e686520ef98f1d4cf98"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pluginTest-unspecified.jar",
+          "url": "pluginTest-unspecified.jar",
+          "size": 1650,
+          "sha512": "d0cc5e981376eab59610b1c0a3661c08fc89fba0a779669a0cc93088d21ed8b51d7f44793d3468f8600943591f27f7399c7d68bb0d97948b56e88056e564671b",
+          "sha256": "d30cb60c1bf0436ea328c555da094e8f315a9ce7239c4a9e954ca8b79b4ea304",
+          "sha1": "5a3b72d84dfe26b8ca11e637a9416b69fb7c8882",
+          "md5": "b71c3d40b08c2e686520ef98f1d4cf98"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>id.test2.buildSrc2</groupId>
+  <artifactId>id.test2.buildSrc2.gradle.plugin</artifactId>
+  <versioning>
+    <latest>0.0.1</latest>
+    <release>0.0.1</release>
+    <versions>
+      <version>unspecified</version>
+      <version>0.0.1</version>
+    </versions>
+    <lastUpdated>20220330051532</lastUpdated>
+  </versioning>
+</metadata>
